@@ -2,6 +2,7 @@ import MeetingTypeList from "@/components/MeetingTypeList";
 import React from "react";
 
 const Home = () => {
+  //FOR GETTING CURRENT DATE/TIME AND PRESENTING IT IN A GOOD FORMAT
   const now = new Date();
   const time = now.toLocaleTimeString("en-us", {
     hour: "2-digit",
